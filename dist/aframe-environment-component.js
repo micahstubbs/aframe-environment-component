@@ -73,7 +73,7 @@
 	    fog: {type:'float', default: 0, min: 0, max: 1},
 
 	    flatShading: {default: false},
-	    playArea: {type: 'float', default: 1, min: 0.5, max: 10},
+	    playArea: {type: 'float', default: 1, min: 0.5, max: 16},
 
 	    ground: {default: 'hills', oneOf:['none', 'flat', 'hills', 'canyon', 'spikes', 'noise']},
 	    groundYScale: {type: 'float', default: 3, min: 0, max: 50},
@@ -121,7 +121,7 @@
 	    this.environmentData = {};
 
 	    // stage ground diameter (and sky radius)
-	    this.STAGE_SIZE = 200;
+	    this.STAGE_SIZE = 300;
 
 	    // data for dressing meshes
 	    this.assets = {
